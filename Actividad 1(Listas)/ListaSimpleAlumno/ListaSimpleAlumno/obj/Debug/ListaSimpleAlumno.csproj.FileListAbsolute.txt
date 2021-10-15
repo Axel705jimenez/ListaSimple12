@@ -18,3 +18,13 @@ C:\Users\Jesus\Source\Repos\S3Unidad1\ListaSimpleAlumno\ListaSimpleAlumno\obj\De
 C:\Users\Jesus\Source\Repos\S3Unidad1\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.csproj.CoreCompileInputs.cache
 C:\Users\Jesus\Source\Repos\S3Unidad1\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.exe
 C:\Users\Jesus\Source\Repos\S3Unidad1\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.pdb
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\bin\Debug\ListaSimpleAlumno.exe.config
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\bin\Debug\ListaSimpleAlumno.exe
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\bin\Debug\ListaSimpleAlumno.pdb
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.csproj.AssemblyReference.cache
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.Form1.resources
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.Properties.Resources.resources
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.csproj.GenerateResource.cache
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.exe
+C:\Users\Jesus\Source\Repos\Actividad-1-Listas-\Actividad 1(Listas)\ListaSimpleAlumno\ListaSimpleAlumno\obj\Debug\ListaSimpleAlumno.pdb

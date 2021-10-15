@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ListaSimpleAlumno
 {
@@ -135,6 +136,49 @@ namespace ListaSimpleAlumno
                 h = h.Siguiente;
             }
             return;
+        }
+        public void Guardar(string nombreArchivo)
+        {
+            Nodo h = head;
+            if (head == null)
+            {
+                return;
+            }
+            nombreArchivo = "testListaSimple";
+            string path = @"C:\" + nombreArchivo + ".txt";
+            using (StreamWriter sw = File.CreateText(path))
+            {
+                do
+                {
+                    sw.WriteLine(h.Numero + "-" + h.Matricula + "-" + h.Nombre + "-" + h.APaterno +
+                        "-" + h.AMaterno + "-" + h.Carrera + "-" + h.Calificacion +"-");
+                    h = h.Siguiente;
+                } while (h != null);
+            }
+            return;
+        }
+        public void Cargar(string nombreArchivo)
+        {
+            Nodo h = head;
+            nombreArchivo = "testListaSimple";
+            string[] lineas = File.ReadAllLines(@"C:\" + nombreArchivo + ".txt");
+            foreach (string linea in lineas)
+            {
+                if (linea.Length == 0)
+                {
+                    continue;
+                }
+                string[] datos = linea.Split('-');
+                int numero = int.Parse(datos[0]);
+                string matricula = datos[1];
+                string nombre = datos[2];
+                string apaterno = datos[3];
+                string aMaterno = datos[4];
+                string carrera = datos[5];
+                int calificacion = int.Parse(datos[6]);
+                Nodo n = new Nodo(numero, matricula, nombre, apaterno, aMaterno, carrera, calificacion);
+                Agregar(n);
+            }
         }
 
         public override string ToString()
